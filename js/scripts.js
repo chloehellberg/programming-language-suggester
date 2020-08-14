@@ -7,7 +7,10 @@ $(document).ready(function() {
     const q4 = parseInt($("input:radio[name=q4]:checked").val());
     const q5 = parseInt($("input:radio[name=q5]:checked").val());
     
+    const result = (q1+q2+q3+q4+q5);
+    console.log(result);
 
+    
 
     event.preventDefault();
   });
