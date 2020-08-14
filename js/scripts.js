@@ -9,7 +9,6 @@ $(document).ready(function() {
     
     const total = (question1+question2+question3+question4+question5);
     
-    // let result;
 
     // JavaScript === 5-8 range
     // Python === 9-12 range
@@ -34,9 +33,12 @@ $(document).ready(function() {
       $("#quiz").hide();
     }
 
-    // $("#output").text(result);
-    // $("#quiz-answer").show(result);
-
     event.preventDefault();
   });
+
+  $(".btn-danger").click(function() {
+    location.reload();
+
+  });
 });
+
