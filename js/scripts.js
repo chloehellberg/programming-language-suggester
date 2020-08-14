@@ -1,30 +1,32 @@
 $(document).ready(function() {
   $("#quiz").submit(function(event) {
 
-    const q1 = parseInt($("input:radio[name=q1]:checked").val());
-    const q2 = parseInt($("input:radio[name=q2]:checked").val());
-    const q3 = parseInt($("input:radio[name=q3]:checked").val());
-    const q4 = parseInt($("input:radio[name=q4]:checked").val());
-    const q5 = parseInt($("input:radio[name=q5]:checked").val());
+    const question1 = parseInt($("input:radio[name=question1]:checked").val());
+    const question2 = parseInt($("input:radio[name=question2]:checked").val());
+    const question3 = parseInt($("input:radio[name=question3]:checked").val());
+    const question4 = parseInt($("input:radio[name=question4]:checked").val());
+    const question5 = parseInt($("input:radio[name=question5]:checked").val());
     
-    const result = (q1+q2+q3+q4+q5);
+    const total = (question1+question2+question3+question4+question5);
     
+    let result;
 
-    // JavaScript === 5-8
-    // Python === 9-12
-    // C# ===  13-15
+    // JavaScript === 5-8 range
+    // Python === 9-12 range
+    // C# ===  13-15 range
 
-    if (result <= 8) {
-      alert ("Javascript");
+    if (total <= 8) {
+      result = "Javascript";
     } 
-    else if (result <= 12 && result >=9) {
-      alert ("Python");
+    else if (total <= 12 && total >=9) {
+      result = "Python";
     }
-
     else {
-      alert ("C#");
+      result = "C#";
     }
 
+    $("#output").text(result);
+    $("#quiz-answer").show(result);
 
     event.preventDefault();
   });
