@@ -1,3 +1,18 @@
+/* Intro  */
+
+#intro .card {
+  margin: 30px;
+  text-align: center;
+}
+
+/* Quiz */
+
+.card {
+  margin: 50px;
+}
+
+/* Answer */
+
 #quiz-answer {
   display: none;
 }
