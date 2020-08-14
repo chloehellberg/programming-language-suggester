@@ -1,9 +1,10 @@
 /* Quiz Intro  */
 
-#intro .card {
-  margin: 30px;
+.jumbotron {
   text-align: center;
-  background-color: #39a0ca;
+  background-color: #091f36;
+  color: white;
+  text-shadow: black 3px 3px 3px;
 }
 
 /* Quiz Body */
@@ -16,8 +17,10 @@
 
 .card {
   margin: 50px;
-  background-color: #39a0ca;
+  background-color: #091f36;
   padding: 10px;
+  text-shadow: black 1px 1px 1px;
+  color: white;
 }
 
 /* Quiz Answer */
@@ -31,5 +34,5 @@ body {
   color: white;
   font-family: "Didot", serif;
   /* font-weight: bolder; */
-  margin: 20px;
+ 
 }
