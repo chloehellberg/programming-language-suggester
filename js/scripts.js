@@ -10,7 +10,21 @@ $(document).ready(function() {
     const result = (q1+q2+q3+q4+q5);
     console.log(result);
 
-    
+    // JavaScript === 5-8
+    // Python === 9-12
+    // C# ===  13-15
+
+    if (result <= 8) {
+      alert ("Javascript");
+    } 
+    else if (result <= 12 && result >=9) {
+      alert ("Python");
+    }
+
+    else {
+      alert ("C#");
+    }
+
 
     event.preventDefault();
   });
