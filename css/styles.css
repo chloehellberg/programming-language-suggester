@@ -30,6 +30,7 @@
 .btn {
   text-shadow: black 1px 1px 1px;
   box-shadow: black 3px 3px 3px;
+  color: #091f36;
 
 }
 
@@ -37,22 +38,25 @@
 
 #javascript {
   display: none;
+  color: #091f36;
 }
 
 #python {
   display: none;
+  color: #091f36;
 }
 
 #c {
   display: none;
+  color: #091f36;
 }
 
 
 
+
 body {
-  background-color: #161748;
+  background-color: #c2edda;
   color: white;
   font-family: "Didot", serif;
-  /* font-weight: bolder; */
  
 }
