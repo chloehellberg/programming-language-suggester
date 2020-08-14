@@ -8,7 +8,7 @@ $(document).ready(function() {
     const q5 = parseInt($("input:radio[name=q5]:checked").val());
     
     const result = (q1+q2+q3+q4+q5);
-    console.log(result);
+    
 
     // JavaScript === 5-8
     // Python === 9-12
