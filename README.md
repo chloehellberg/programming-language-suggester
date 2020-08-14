@@ -1,6 +1,6 @@
 # _Programming Language Suggester_
 
-#### _Quiz application that will help a user determine what programming language to learn first, 8.14.20_
+#### _Quiz application that will help a user determine what programming language to learn first, Created: 8.14.20_
 
 #### By _**Chloe Hellberg**_
 
