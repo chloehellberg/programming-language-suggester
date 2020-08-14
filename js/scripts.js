@@ -9,24 +9,30 @@ $(document).ready(function() {
     
     const total = (question1+question2+question3+question4+question5);
     
-    let result;
+    // let result;
 
     // JavaScript === 5-8 range
     // Python === 9-12 range
     // C# ===  13-15 range
 
     if (total <= 8) {
-      result = "Javascript";
+      $("#javascript").show();
+      $("#python").hide();
+      $("#c").hide();
     } 
     else if (total <= 12 && total >=9) {
-      result = "Python";
+      $("#python").show();
+      $("#javascript").hide();
+      $("#c").hide();
     }
     else {
-      result = "C#";
+      $("#c").show();
+      $("#python").hide();
+      $("#javascript").hide();
     }
 
-    $("#output").text(result);
-    $("#quiz-answer").show(result);
+    // $("#output").text(result);
+    // $("#quiz-answer").show(result);
 
     event.preventDefault();
   });

@@ -35,9 +35,19 @@
 
 /* Quiz Answer */
 
-#quiz-answer {
+#javascript {
   display: none;
 }
+
+#python {
+  display: none;
+}
+
+#c {
+  display: none;
+}
+
+
 
 body {
   background-color: #161748;
