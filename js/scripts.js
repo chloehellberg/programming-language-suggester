@@ -19,16 +19,19 @@ $(document).ready(function() {
       $("#javascript").show();
       $("#python").hide();
       $("#c").hide();
+      $("#quiz").hide();
     } 
     else if (total <= 12 && total >=9) {
       $("#python").show();
       $("#javascript").hide();
       $("#c").hide();
+      $("#quiz").hide();
     }
     else {
       $("#c").show();
       $("#python").hide();
       $("#javascript").hide();
+      $("#quiz").hide();
     }
 
     // $("#output").text(result);
