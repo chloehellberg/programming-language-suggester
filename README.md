@@ -6,7 +6,7 @@
 
 ## Description
 
-_This application is a quiz to help people who are interested in learning how to code figure out what programming language to learn first based on the answers they enter. Application will take their answers and then suggest a language._
+_This application is a quiz to help people who are interested in learning how to code figure out what programming language to learn first based on the answers they enter. Application will take their answers and then suggest a language. Application will allow user to take the quiz multiple times._
 
 ## Setup/Installation Requirements
 
