@@ -9,137 +9,170 @@
 </head>
 <body>
   <div class="container" id="intro">
-    <h1>Programming Language Suggester</h1>
-    <p>So you're interested in coding? Take this quick quiz to find out which language may be a good fit for you to explore first! For each question, pic k what feels the most true to you and at the end, find out which one you should start with!</p>
+      <div class="card">
+        <div class="card-body">
+          <h1 class="card-title">Programming Language Suggester</h1>
+          <p class="card-text">So you're interested in coding? Take this quick quiz to find out which language may be a good fit for you to explore first! For each question, pic k what feels the most true to you and at the end, find out which one you should start with!</p>
+        </div>
+      </div>
   </div>
+
+
 
   <div class="container" id="quiz-body">
-    <form id="quiz">
-      <div class="form-group1" id="question1">
-        <h4>Question 1: If you were a house, what part of the house would you be?:</h4>  
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="1">
-            I'm the inner workings of a house. I keep it heated, I'm the plumbing, etc. I make you comfortable in the house.
-          </label>
+    <div class = "card">
+      <form id="quiz">
+        <div class = "card" id = "card1">
+          <div class="card-body">
+            <div class="form-group1" id="question1">
+              <h4 class="card-title">Question 1: If you were a house, what part of the house would you be?:</h4> 
+              <div class = "card-text">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question1" value="1">
+                    I'm the inner workings of a house. I keep it heated, I'm the plumbing, etc. I make you comfortable in the house.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question1" value="3">
+                    Sorry but I'm really picky and only like to be the inner workings of a particular house. Let's start with that first...
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question1" value="2">
+                    Excuse me...I'm every part of the house. I'm EVERYTHING...I think?
+                  </label>
+                </div>
+              </div> 
+            </div>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="3">
-            Sorry but I'm really picky and only like to be the inner workings of a particular house. Let's start with that first...
-          </label>
+        <div class = "card" id = "card2">
+          <div class="card-body">
+            <div class="form-group2" id="question2">
+              <h4 class="card-title">Question 2: What type of personality best represents you?:</h4> 
+              <div class="card-text"> 
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question2" value="1">
+                    Extrovert and everyone knows your name.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question2" value="3">
+                    Perfectionist and you gain power from this.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question2" value="2">
+                    Popular and a Renaissance woman/man.
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="2">
-            Excuse me...I'm every part of the house. I'm EVERYTHING...I think?
-          </label>
+        <div class = "card" id = "card3"> 
+          <div class = "card-body">
+            <div class="form-group3" id="question3">
+              <h4 class="card-title">Question 3: You are interested in learning an object oriented language. Pick what feels most accurate:</h4> 
+              <div class = "card-text">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question3" value="1">
+                    True
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" ame="question3" value="2">
+                    Sometimes true
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question3" value="3">
+                    False
+                  </label>
+                </div>
+              </div> 
+            </div>
+          </div>
         </div>
-      </div>
+        <div class = "card" id = "card4">
+          <div class = "card-body">
+            <div class="form-group4" id="question4">
+              <h4 class="card-title">Question 4: Pick the Hogwarts House you belong to:</h4> 
+              <div class = "card-text">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question4" value="2">
+                    Slytherin...duh.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question4" value="1">
+                    Gryffindor, do I need to say more?
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question4" value="3">
+                    I'm a Ravenclaw (but I get Hufflepuff on some quizzes I take).
+                  </label>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class = "card" id = "card5">
+          <div class = "card-body">
+            <div class="form-group5" id="question5">
+              <h4 class = "card-title">Question 5: You are just starting to learn how to code...do you want to start easy, medium, or hard?:</h4> 
+              <div class = "card-text"> 
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question5" value="3">
+                    Let's GOOOOOO. Throw me in the deep-end!
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question5" value="1">
+                    Slow your roll. I would like to get the basics in first.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question5" value="2">
+                    I like my burgers medium-rare, so give me soemthing in the middle to easy.
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-      <div class="form-group2" id="question2">
-        <h4>Question 2: What type of personality best represents you?:</h4>  
-        <div class="radio">
-          <label>
-            <input type="radio" name="question2" value="1">
-            Extrovert and everyone knows your name.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question2" value="3">
-            Perfectionist and you gain power from this.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question2" value="2">
-            Popular and a Renaissance woman/man.
-          </label>
-        </div>
-      </div>
-
-      <div class="form-group3" id="question3">
-        <h4>Question 3: You are interested in learning an object oriented language. Pick what feels most accurate:</h4>  
-        <div class="radio">
-          <label>
-            <input type="radio" name="question3" value="1">
-            True
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" ame="question3" value="2">
-            Sometimes true
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question3" value="3">
-            False
-          </label>
-        </div>
-      </div>
-
-      <div class="form-group4" id="question4">
-        <h4>Question 4: Pick the Hogwarts House you belong to:</h4>  
-        <div class="radio">
-          <label>
-            <input type="radio" name="question4" value="2">
-            Slytherin...duh.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question4" value="1">
-            Gryffindor, do I need to say more?
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question4" value="3">
-            I'm a Ravenclaw (but I get Hufflepuff on some quizzes I take).
-          </label>
-        </div>
-      </div>
-
-      <div class="form-group5" id="question5">
-        <h4>Question 5: You are just starting to learn how to code...do you want to start easy, medium, or hard?:</h4>  
-        <div class="radio">
-          <label>
-            <input type="radio" name="question5" value="3">
-            Let's GOOOOOO. Throw me in the deep-end!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question5" value="1">
-            Slow your roll. I would like to get the basics in first.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question5" value="2">
-            I like my burgers medium-rare, so give me soemthing in the middle to easy.
-          </label>
-        </div>
-      </div>
-     
-      <button type="submit" class="btn btn-primary">Click here to find out what language!</button>
-    </form>
+        <button type="submit" class="btn btn-primary">Click here to find out what language!</button>
+      </form>
+    </div>
   </div>
+
+
+
+
+
+
+
+
 
   <div class="container" id="quiz-answer">
     <p>You should give <span id="output"></span> a try!</p>
-
-    <!-- <div id="ryanReynolds">
-      <p>You will date Ryan Reynolds!</p>
-      <img src="img/ryan.jpg">
-    </div>
-    <div id="rock">
-      <p>You will date The Rock!</p>
-      <img src="img/rock.jpg">
-    </div> -->
 
   </div>
 </body>
