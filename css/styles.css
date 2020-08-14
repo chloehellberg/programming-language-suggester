@@ -5,15 +5,12 @@
   background-color: #091f36;
   color: white;
   text-shadow: black 3px 3px 3px;
+  box-shadow: black 6px 6px 6px;
 }
 
 /* Quiz Body */
 
-.container2  {
-  background-color: #39a0ca;
-  margin: 20px;
-  padding: 20px;
-}
+
 
 .card {
   margin: 50px;
@@ -21,6 +18,19 @@
   padding: 10px;
   text-shadow: black 1px 1px 1px;
   color: white;
+  box-shadow: black 3px 3px 3px;
+}
+
+
+#quiz-button {
+  margin: 50px;
+  
+}
+
+.btn {
+  text-shadow: black 1px 1px 1px;
+  box-shadow: black 3px 3px 3px;
+
 }
 
 /* Quiz Answer */
